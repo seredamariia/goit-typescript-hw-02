@@ -1,0 +1,14 @@
+.image {
+    display: block;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.infoContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 10px;
+}

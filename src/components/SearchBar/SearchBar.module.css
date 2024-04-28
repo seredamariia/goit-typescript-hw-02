@@ -1,0 +1,14 @@
+.header {
+    background-color: #3845b8;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.inputSearch {
+    width: 500px;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
