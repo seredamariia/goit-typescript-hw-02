@@ -5,7 +5,6 @@ import SearchBar from "../SearchBar/SearchBar";
 import Loader from "../Loader/Loader";
 import ImageGallery from "../ImageGallery/ImageGallery";
 import LoadMoreBtn from "../LoadMoreBtn/LoadMoreBtn";
-import LoaderMore from "../Loader/LoaderMore";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import ImageModal from "../ImageModal/ImageModal";
 import { Image } from "./App.types";
@@ -98,7 +97,7 @@ function App() {
       {!loadingMore && !isSearching && (
         <LoadMoreBtn onClick={handleLoadMore} isVisible={isVisible} />
       )}
-      {loadingMore && <LoaderMore />}
+      {loadingMore && <Loader />}
       <ImageModal
         isOpen={modalIsOpen}
         image={selectedImage}
